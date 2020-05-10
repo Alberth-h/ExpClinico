@@ -1,0 +1,467 @@
+/*Seccion*/
+#rectangle{
+    width:100%;
+    height:50px;
+    background-color: #393D42;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+
+  .rectangle_content{
+      text-align: center;
+      padding: 10px 0;
+      color: white;
+      font-size: x-large;
+  }
+
+/*Letras*/
+  .label_fechaIngreso{
+      position: absolute;
+      top: 50px;
+      left: 10px;
+  }
+
+  .label_Apellido1{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+
+  .label_Apellido2{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+  }
+
+  .label_nombre{
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+  }
+
+  .label_fechaNacimiento{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+  }
+
+  .label_edad{
+    position: absolute;
+    top: 150px;
+    left: 550px;
+  }
+
+  .label_curp{
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+  }
+
+  .label_sexo{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+  }
+
+  .label_estaEmbarazada{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+  }
+
+  .label_mesesEmbarazo{
+    position: absolute;
+    top: 200px;
+    left: 1050px;
+  }
+
+  .label_periodoPuerperio{
+    position: absolute;
+    top: 200px;
+    left: 1370px;
+  }
+
+  .label_diasPuerperio{
+    position: absolute;
+    top: 200px;
+    left: 1670px;
+  }
+
+  .label_nacionalidad{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+  }
+
+  .label_expedienteSS{
+    position: absolute;
+    top: 250px;
+    left: 550px;
+  }
+
+
+
+  .label_EntidadNac{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+}
+
+.label_Municipio{
+    position: absolute;
+    top: 350px;
+    left: 10px;
+}
+
+.label_calle{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+.label_entrecalles{
+    position: absolute;
+    top: 450px;
+    left: 10px;
+}
+
+.label_colonia{
+    position: absolute;
+    top: 500px;
+    left: 10px;
+}
+
+.label_indigena{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+}
+.label_ocupacion{
+    position: absolute;
+    top: 600px;
+    left: 10px;
+}
+
+.label_EntidadDele{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+
+.label_localidad{
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+
+.label_numext{
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+.label_numint{
+    position: absolute;
+    top: 400px;
+    left: 1050px;
+}
+
+.label_telefono{
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+}
+
+.label_cp{
+    position: absolute;
+    top: 500px;
+    left: 550px;
+}
+
+.label_lengua{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+}
+
+.label_migrante{
+    position: absolute;
+    top: 600px;
+    left: 550px;
+}
+
+
+
+
+
+  /*botones*/
+  .btn_fechaIngreso{
+    position: absolute;
+    top: 65px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_Apellido1{
+    position: absolute;
+    top: 114px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_Apellido2{
+    position: absolute;
+    top: 114px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_nombre{
+    position: absolute;
+    top: 114px;
+    left: 1275px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_fechaNacimiento{
+    position: absolute;
+    top: 163px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_edad{
+    position: absolute;
+    top: 163px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_curp{
+    position: absolute;
+    top: 163px;
+    left: 1275px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_sexo{
+    position: absolute;
+    top: 212px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_estaEmbarazada{
+    position: absolute;
+    top: 212px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_mesesEmbarazo{
+    position: absolute;
+    top: 212px;
+    left: 1275px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_periodoPuerperio{
+    position: absolute;
+    top: 212px;
+    left: 1575px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_diasPuerperio{
+    position: absolute;
+    top: 212px;
+    left: 1820px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_nacionalidad{
+    position: absolute;
+    top: 260px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_expedienteSS{
+    position: absolute;
+    top: 260px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_EntidadNac{
+    position: absolute;
+    top: 309px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_Municipio{
+    position: absolute;
+    top: 358px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_calle{
+    position: absolute;
+    top: 407px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_entrecalles{
+    position: absolute;
+    top: 456px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_colonia{
+    position: absolute;
+    top: 505px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_indigena{
+    position: absolute;
+    top: 554px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_ocupacion{
+    position: absolute;
+    top: 603px;
+    left: 450px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_EntidadDele{
+    position: absolute;
+    top: 309px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_localidad{
+    position: absolute;
+    top: 358px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_numext{
+    position: absolute;
+    top: 407px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_numint{
+    position: absolute;
+    top: 407px;
+    left: 1275px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+.btn_cp{
+    position: absolute;
+    top: 505px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_numint{
+    position: absolute;
+    top: 407px;
+    left: 1275px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+  }
+
+.btn_telefono{
+    position: absolute;
+    top: 505px;
+    left: 1275px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_lengua{
+    position: absolute;
+    top: 554px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+
+.btn_migrante{
+    position: absolute;
+    top: 603px;
+    left: 950px;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
